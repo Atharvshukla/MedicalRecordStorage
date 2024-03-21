@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import healthReport from "../../assets/health-report.png";
+import healthReport from "../../assets/health-report.jpg";
 import { loadAccount } from "../../store/interactions";
 import { useDispatch, useSelector } from "react-redux";
 import Blockies from "react-blockies";
@@ -28,7 +28,7 @@ const Navbar = () => {
     <div className="Navbar">
       <div className="nav__name">
         <img src={healthReport} alt="" width="40" height="40" />
-        <h2>Subham Medical Record </h2>
+        <h2>WebCrawlers Medical Record </h2>
       </div>
       <div className="nav__networkSelector">
         <select
@@ -40,7 +40,7 @@ const Navbar = () => {
           <option value="0" disabled>
             Select Network
           </option>
-          <option value="1337">Localhost</option>
+          <option value="31337">Localhost</option>
         </select>
       </div>
       <div className="nav__balance">
